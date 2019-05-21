@@ -1,0 +1,2 @@
+# spellchecker
+Basic spellchecker implementation.
