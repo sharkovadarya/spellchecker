@@ -21,8 +21,8 @@ class SpellcheckerTest {
     @Test
     fun testSuggestions() {
         val suggestions = spellchecker.getSuggestions("wrd")
-        assert(suggestions.contains("word"))
-        assert(suggestions.contains("ward"))
+        assertTrue(suggestions.contains("word"))
+        assertTrue(suggestions.contains("ward"))
         assertFalse(suggestions.contains("wrrd"))
     }
 
